@@ -1,0 +1,21 @@
+{
+  "name": "balloons-effect-local",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 3001 --strictPort",
+    "build": "tsc --noEmit && vite build && node scripts/make-standalone.mjs",
+    "preview": "vite preview --host 127.0.0.1 --port 3001 --strictPort"
+  },
+  "dependencies": {
+    "react": "19.2.6",
+    "react-dom": "19.2.6"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "typescript": "5.9.3",
+    "vite": "8.0.13"
+  }
+}
